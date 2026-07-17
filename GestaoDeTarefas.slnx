@@ -1,5 +1,7 @@
 <Solution>
-  <Folder Name="/scripts/" />
+  <Folder Name="/scripts/">
+    <File Path="scripts\commit.sh" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="GestaoDeTarefas.Api/GestaoDeTarefas.Api.csproj" />
     <Project Path="GestaoDeTarefas.Application/GestaoDeTarefas.Application.csproj" />
