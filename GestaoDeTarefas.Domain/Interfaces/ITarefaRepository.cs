@@ -7,7 +7,7 @@ public interface ITarefaRepository
 {
     Task<Tarefa> Add(Tarefa tarefa);
     
-    Task<IEnumerable<Tarefa>> Get(TarefaFilter filtros);
+    Task<IEnumerable<Tarefa>> Get(TarefaFilters filtros);
     
     Task<Tarefa> GetById(Guid id);
     

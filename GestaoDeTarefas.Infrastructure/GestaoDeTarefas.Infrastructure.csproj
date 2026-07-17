@@ -12,7 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Repositorys\" />
+      <ProjectReference Include="..\GestaoDeTarefas.Domain\GestaoDeTarefas.Domain.csproj" />
     </ItemGroup>
 
 </Project>
